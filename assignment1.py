@@ -30,7 +30,7 @@ def assign1():
             else:
                 print("Invalid input")
         elif q1=="right":
-            q3=input("You come across a river and you don't know if it'safe to cross. Type 'cross' to cross it by boat or 'back' to go back. ")
+            q3=input("You come across a river and you don't know if it's safe to cross. Type 'cross' to cross it by boat or 'back' to go back. ")
             if q3=="cross":
                 q4=input("You crossed safely! Now you come across a stranger. Type 'ignore' to ignore the person or 'talk' to talk and ask for the way out of the jungle ")
                 if q4=="Talk":
@@ -49,7 +49,7 @@ def assign1():
         return hi()
     else:
         print("Invalid input")
-assign1()
 def hi():
-        print ("Oops! You're not interested? Nvm, See you next time")
+    print ("Oops! You're not interested? Nvm, See you next time")
 hi()
+assign1()
