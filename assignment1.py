@@ -4,7 +4,7 @@ def assign1():
     name = input("Enter your name: ")
     print("Welcome", name,"to the adventure game!")
     conf= str(input("Are you ready to begin the adventure?(Enter 'yes' to continue or enter 'no' to not continue) "))
-    if conf=="yes" or conf=="YES" or conf=="Yes":
+    if conf=="yes":
         print("Great! Let's begin", name,"!")
         q1=input("You are walking through the woods and you come across two paths, left and right. Type 'left' for going left or 'right' for going right. ")
         if q1=="left":
