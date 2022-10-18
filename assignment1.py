@@ -1,8 +1,10 @@
+def hi():
+    print ("Oops! You're not interested? Nvm, See you next time")
 def assign1():
     name = input("Enter your name: ")
     print("Welcome", name,"to the adventure game!")
-    conf= str(input("Are you ready to begin the adventure? "))
-    if conf=="yes" or "Yes" or "YES":
+    conf= str(input("Are you ready to begin the adventure?(Enter 'yes' to continue or enter 'no' to not continue) "))
+    if conf=="yes" or conf=="YES" or conf=="Yes":
         print("Great! Let's begin", name,"!")
         q1=input("You are walking through the woods and you come across two paths, left and right. Type 'left' for going left or 'right' for going right. ")
         if q1=="left":
@@ -45,11 +47,12 @@ def assign1():
                 print("Invalid input")
         else:
             print("Invalid input ")
-    elif conf=="no" or "No" or"NO":
-        return hi()
+    elif conf=="no":
+
+        print("Oops! You're not interested? Nvm, See you next time")
     else:
         print("Invalid input")
-def hi():
-    print ("Oops! You're not interested? Nvm, See you next time")
-hi()
+
 assign1()
+
+                    
